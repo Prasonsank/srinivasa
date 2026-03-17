@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinivasa Super Speciality Dental Hospital | Best Dentist in Siddipet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        
+        :root {
+            --primary-blue: #0f172a;
+            --medical-blue: #2563eb;
+            --soft-teal: #2dd4bf;
+        }
+
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            scroll-behavior: smooth; 
+        }
+
+        .glass-header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .hero-gradient {
+            background: radial-gradient(circle at top right, #eff6ff 0%, #ffffff 100%);
+        }
+
+        /* Animation Classes */
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.7s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-white text-slate-900 overflow-x-hidden">
+
+    <nav class="glass-header fixed w-full z-50 top-0 left-0">
+        <div class="max-w-7xl mx-auto px-4 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center gap-2">
+                    <div class="bg-blue-600 p-2 rounded-lg">
+                        <i data-lucide="sparkles" class="text-white w-6 h-6"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-extrabold text-lg leading-none tracking-tight">SRINIVASA</span>
+                        <span class="text-[10px] font-bold text-blue-600 tracking-widest uppercase">Dental Hospital</span>
+                    </div>
+                </div>
+                
+                <div class="hidden lg:flex space-x-8 font-semibold text-sm text-slate-600">
+                    <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                    <a href="#about" class="hover:text-blue-600 transition">About</a>
+                    <a href="#services" class="hover:text-blue-600 transition">Services</a>
+                    <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <a href="tel:+918500405106" class="hidden sm:flex items-center gap-2 text-blue-600 font-bold text-sm">
+                        <i data-lucide="phone" class="w-4 h-4"></i> +91 85004 05106
+                    </a>
+                    <a href="#booking" class="bg-blue-600 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-slate-900 transition shadow-lg shadow-blue-200">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-32 pb-20 hero-gradient px-4">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div class="animate__animated animate__fadeInLeft">
+                <div class="inline-flex items-center gap-2 bg-blue-50 border border-blue-100 px-4 py-2 rounded-full mb-6">
+                    <span class="flex text-yellow-500">★★★★★</span>
+                    <span class="text-xs font-bold text-blue-800 italic">5.0 Patient Rating</span>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
+                    Advanced Dental Care for <span class="text-blue-600 underline decoration-teal-300">Healthy Smiles</span>
+                </h1>
+                <p class="text-lg text-slate-600 mb-10 max-w-lg leading-relaxed">
+                    Experience world-class dentistry at Srinivasa Super Speciality Dental Hospital. We combine modern technology with compassionate care for your family.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#booking" class="bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold hover:bg-blue-600 transition flex items-center gap-2">
+                        Book Appointment <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                    </a>
+                    <a href="tel:+918500405106" class="bg-white border border-slate-200 px-8 py-4 rounded-2xl font-bold text-slate-700 hover:bg-slate-50 transition">
+                        Call Now
+                    </a>
+                </div>
+            </div>
+            <div class="relative animate__animated animate__fadeInRight">
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800" alt="Modern Dental Care" class="rounded-[2rem] shadow-2xl">
+                <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl flex items-center gap-4">
+                    <div class="bg-teal-100 p-3 rounded-xl"><i data-lucide="shield-check" class="text-teal-600"></i></div>
+                    <div><p class="font-bold text-slate-900">100% Safe</p><p class="text-xs text-slate-500">Sterilized Environment</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-blue-600 font-bold tracking-widest text-sm uppercase mb-2">Our Specialities</h2>
+                <h3 class="text-3xl md:text-4xl font-extrabold">Comprehensive Dental Services</h3>
+            </div>
+            
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+                <div class="group bg-slate-50 p-6 rounded-3xl hover:bg-blue-600 transition-all duration-300 reveal">
+                    <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition">
+                        <i data-lucide="activity" class="text-blue-600"></i>
+                    </div>
+                    <h4 class="font-bold mb-2 group-hover:text-white">Root Canal</h4>
+                    <p class="text-xs text-slate-500 group-hover:text-blue-100">Painless RCT with advanced tech.</p>
+                </div>
+
+                <div class="group bg-slate-50 p-6 rounded-3xl hover:bg-blue-600 transition-all duration-300 reveal">
+                    <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition">
+                        <i data-lucide="smile" class="text-blue-600"></i>
+                    </div>
+                    <h4 class="font-bold mb-2 group-hover:text-white">Teeth Cleaning</h4>
+                    <p class="text-xs text-slate-500 group-hover:text-blue-100">Professional scale & polish.</p>
+                </div>
+
+                <div class="group bg-slate-50 p-6 rounded-3xl hover:bg-blue-600 transition-all duration-300 reveal">
+                    <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition">
+                        <i data-lucide="layers" class="text-blue-600"></i>
+                    </div>
+                    <h4 class="font-bold mb-2 group-hover:text-white">Dental Implants</h4>
+                    <p class="text-xs text-slate-500 group-hover:text-blue-100">Permanent tooth replacement.</p>
+                </div>
+
+                <div class="group bg-slate-50 p-6 rounded-3xl hover:bg-blue-600 transition-all duration-300 reveal">
+                    <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition">
+                        <i data-lucide="heart" class="text-blue-600"></i>
+                    </div>
+                    <h4 class="font-bold mb-2 group-hover:text-white">Pediatric Care</h4>
+                    <p class="text-xs text-slate-500 group-hover:text-blue-100">Friendly dentistry for kids.</p>
+                </div>
+
+                <div class="group bg-slate-50 p-6 rounded-3xl hover:bg-blue-600 transition-all duration-300 reveal">
+                    <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition">
+                        <i data-lucide="wand-2" class="text-blue-600"></i>
+                    </div>
+                    <h4 class="font-bold mb-2 group-hover:text-white">Cosmetic</h4>
+                    <p class="text-xs text-slate-500 group-hover:text-blue-100">Smile makeover & veneers.</p>
+                </div>
+
+                <div class="group bg-slate-50 p-6 rounded-3xl hover:bg-blue-600 transition-all duration-300 reveal">
+                    <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition">
+                        <i data-lucide="zap" class="text-blue-600"></i>
+                    </div>
+                    <h4 class="font-bold mb-2 group-hover:text-white">Whitening</h4>
+                    <p class="text-xs text-slate-500 group-hover:text-blue-100">Instant bright smiles.</p>
+                </div>
+
+                <div class="group bg-slate-50 p-6 rounded-3xl hover:bg-blue-600 transition-all duration-300 reveal">
+                    <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition">
+                        <i data-lucide="scissors" class="text-blue-600"></i>
+                    </div>
+                    <h4 class="font-bold mb-2 group-hover:text-white">Extractions</h4>
+                    <p class="text-xs text-slate-500 group-hover:text-blue-100">Safe & painless removal.</p>
+                </div>
+
+                <div class="group bg-slate-50 p-6 rounded-3xl hover:bg-blue-600 transition-all duration-300 reveal">
+                    <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition">
+                        <i data-lucide="clipboard-check" class="text-blue-600"></i>
+                    </div>
+                    <h4 class="font-bold mb-2 group-hover:text-white">Consultation</h4>
+                    <p class="text-xs text-slate-500 group-hover:text-blue-100">Expert dental advice.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-900 text-white px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-16">Why Srinivasa Dental?</h2>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
+                <div class="text-center p-6 border border-slate-800 rounded-3xl reveal">
+                    <i data-lucide="user-check" class="mx-auto mb-4 text-teal-400 w-8 h-8"></i>
+                    <h4 class="font-bold text-sm md:text-base">Specialists</h4>
+                </div>
+                <div class="text-center p-6 border border-slate-800 rounded-3xl reveal">
+                    <i data-lucide="microscope" class="mx-auto mb-4 text-teal-400 w-8 h-8"></i>
+                    <h4 class="font-bold text-sm md:text-base">Modern Tech</h4>
+                </div>
+                <div class="text-center p-6 border border-slate-800 rounded-3xl reveal">
+                    <i data-lucide="stethoscope" class="mx-auto mb-4 text-teal-400 w-8 h-8"></i>
+                    <h4 class="font-bold text-sm md:text-base">Hygienic</h4>
+                </div>
+                <div class="text-center p-6 border border-slate-800 rounded-3xl reveal">
+                    <i data-lucide="credit-card" class="mx-auto mb-4 text-teal-400 w-8 h-8"></i>
+                    <h4 class="font-bold text-sm md:text-base">Affordable</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-4 bg-slate-50">
+        <div class="max-w-7xl mx-auto">
+            <h3 class="text-3xl font-extrabold text-center mb-16">Happy Patients</h3>
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-white p-6 rounded-3xl shadow-sm reveal">
+                    <div class="flex text-yellow-400 mb-4 h-3 w-3"><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i></div>
+                    <p class="text-xs md:text-sm text-slate-600 italic">"Best experience for my root canal treatment. No pain at all!"</p>
+                    <p class="mt-4 font-bold text-xs text-blue-600">- Ramesh V.</p>
+                </div>
+                <div class="bg-white p-6 rounded-3xl shadow-sm reveal">
+                    <div class="flex text-yellow-400 mb-4 h-3 w-3"><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i></div>
+                    <p class="text-xs md:text-sm text-slate-600 italic">"Very hygienic clinic and polite staff. Highly recommended in Siddipet."</p>
+                    <p class="mt-4 font-bold text-xs text-blue-600">- Swapna K.</p>
+                </div>
+                <div class="hidden lg:block bg-white p-6 rounded-3xl shadow-sm reveal">
+                    <div class="flex text-yellow-400 mb-4 h-3 w-3"><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i></div>
+                    <p class="text-xs md:text-sm text-slate-600 italic">"Excellent pediatric dentist. My son was very comfortable."</p>
+                    <p class="mt-4 font-bold text-xs text-blue-600">- Arjun M.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="py-24 px-4">
+        <div class="max-w-5xl mx-auto bg-blue-600 rounded-[3rem] overflow-hidden shadow-2xl flex flex-col md:flex-row reveal">
+            <div class="p-10 md:w-1/2 text-white flex flex-col justify-center">
+                <h3 class="text-3xl font-bold mb-4">Book Your Visit</h3>
+                <p class="text-blue-100 mb-8 text-sm leading-relaxed">Fill out the form and our coordinator will call you back to confirm your slot.</p>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3"><i data-lucide="phone-call" class="w-5 h-5"></i> <span>+91 85004 05106</span></div>
+                    <div class="flex items-center gap-3"><i data-lucide="clock" class="w-5 h-5"></i> <span>9:00 AM - 8:00 PM</span></div>
+                </div>
+            </div>
+            <div class="p-10 bg-white md:w-1/2">
+                <form class="space-y-4">
+                    <input type="text" placeholder="Full Name" class="w-full bg-slate-50 border-none px-6 py-4 rounded-2xl focus:ring-2 focus:ring-blue-600 text-sm">
+                    <input type="tel" placeholder="Phone Number" class="w-full bg-slate-50 border-none px-6 py-4 rounded-2xl focus:ring-2 focus:ring-blue-600 text-sm">
+                    <select class="w-full bg-slate-50 border-none px-6 py-4 rounded-2xl focus:ring-2 focus:ring-blue-600 text-sm text-slate-500">
+                        <option>Choose Treatment</option>
+                        <option>Teeth Whitening</option>
+                        <option>Root Canal</option>
+                    </select>
+                    <button class="w-full bg-blue-600 text-white font-bold py-4 rounded-2xl hover:bg-slate-900 transition">Request Slot</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-4 bg-white">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12">
+            <div>
+                <h4 class="text-2xl font-bold mb-6">Find Us</h4>
+                <div class="bg-slate-50 p-8 rounded-[2rem]">
+                    <p class="font-bold text-slate-900 mb-2">Srinivasa Super Speciality Dental Hospital</p>
+                    <p class="text-slate-600 text-sm mb-6 leading-relaxed">8-2-123/1, Opposite Surya Skin Hospital, Shivaji Nagar, Siddipet, Telangana 502103, India</p>
+                    <div class="flex gap-4">
+                        <a href="https://maps.app.goo.gl/2Fa3HUqLMVXhjzMP9" target="_blank" class="bg-white border px-6 py-3 rounded-xl text-sm font-bold flex items-center gap-2 hover:bg-slate-100">
+                            <i data-lucide="map" class="w-4 h-4"></i> Get Directions
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="h-80 bg-slate-100 rounded-[2rem] overflow-hidden">
+                <iframe src="https://maps.app.goo.gl/2Fa3HUqLMVXhjzMP9" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-16 px-4">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
+            <div>
+                <div class="flex items-center gap-2 text-white mb-6">
+                    <i data-lucide="sparkles" class="text-blue-500"></i>
+                    <span class="font-bold tracking-tight">SRINIVASA DENTAL</span>
+                </div>
+                <p class="text-sm">Providing advanced dental care with modern technology for the people of Siddipet.</p>
+            </div>
+            <div>
+                <h5 class="text-white font-bold mb-6">Quick Links</h5>
+                <ul class="text-sm space-y-4">
+                    <li><a href="#" class="hover:text-white">Services</a></li>
+                    <li><a href="#" class="hover:text-white">About Hospital</a></li>
+                    <li><a href="#" class="hover:text-white">Book Appointment</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-white font-bold mb-6">Contact</h5>
+                <p class="text-sm">Shivaji Nagar, Siddipet<br>+91 85004 05106</p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto border-t border-slate-800 mt-12 pt-8 text-center text-xs">
+            © 2026 Srinivasa Super Speciality Dental Hospital. Best Dentist in Siddipet.
+        </div>
+    </footer>
+
+    <a href="https://wa.me/918500405106" target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition z-50">
+        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.891 11.893-11.891 3.181 0 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.481 8.403 0 6.556-5.332 11.892-11.893 11.892-1.99 0-3.951-.5-5.688-1.448l-6.305 1.664zm6.25-3.313l.369.218c1.462.866 3.153 1.323 4.886 1.323 5.144 0 9.331-4.187 9.331-9.333 0-2.492-.97-4.835-2.731-6.597-1.762-1.761-4.103-2.731-6.599-2.731-5.144 0-9.331 4.188-9.331 9.333 0 2.048.669 4.049 1.935 5.713l.24.316-1.004 3.666 3.754-.99z"/></svg>
+    </a>
+
+    <script>
+        // Init Lucide Icons
+        lucide.createIcons();
+
+        // Reveal on scroll logic
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
